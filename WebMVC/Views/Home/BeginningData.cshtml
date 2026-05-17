@@ -1,0 +1,28 @@
+﻿@model IEnumerable<dynamic>
+
+@{
+    ViewData["Title"] = "Beginning Data";
+}
+
+<h1>Beginning Data</h1>
+<p>Data around 98 and 99 with repository address on GitHub.</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Detail</th>
+            <th>GitHub Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td><a href="@item.GithubAddress">@item.GithubAddress</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

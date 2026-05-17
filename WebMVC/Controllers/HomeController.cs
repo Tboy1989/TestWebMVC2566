@@ -27,8 +27,8 @@ namespace WebMVC.Controllers
         {
             var beginningData = new[]
             {
-                new { Id = 98, Name = "AB inner plastic bones of hearing", GithubAddress = "https://github.com/Tboy1989/TestWebMVC2566" },
-                new { Id = 99, Name = "AB inner plastic bones of hearing", GithubAddress = "https://github.com/Tboy1989/TestWebMVC2566" }
+                new { Id = 98, Name = "AB inner plastic bones of hearing - beginning data 98", GithubAddress = "https://github.com/Tboy1989/TestWebMVC2566" },
+                new { Id = 99, Name = "AB inner plastic bones of hearing - beginning data 99", GithubAddress = "https://github.com/Tboy1989/TestWebMVC2566" }
             };
 
             return View(beginningData);
